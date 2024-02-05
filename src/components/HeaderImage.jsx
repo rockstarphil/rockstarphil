@@ -29,10 +29,10 @@ export function HeaderImage() {
     }}>
       <Typography
         variant={isSmall ? 'h4' : "h2"}
-        sx={{ color: '#FFFFFF' }}>Phil Norman</Typography>
+        sx={{ color: '#FFFFFF' }}>phil norman</Typography>
       <Typography
         variant={isSmall ? 'h5' : "h3"}
-        sx={{ color: '#FFFFFF' }}>Folksinger</Typography>
+        sx={{ color: '#FFFFFF' }}>folksinger</Typography>
     </div>
   </Grid>);
 }

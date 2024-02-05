@@ -5,7 +5,7 @@ import { Section } from './Section';
 export function OtherPhils(props) {
   return (<Section paper={{ sx: { backgroundColor: '#CCCCCC', padding: 2 } }}>
     <Typography gutterBottom variant='h3' component='h2' >
-      Other Musical Phil Normans
+      other musical phil normans
     </Typography>
     <Typography paragraph>
       Other musical Phil Normans that I am not, but enjoy knowing are out there doing cool things:

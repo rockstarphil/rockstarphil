@@ -20,7 +20,7 @@ function FawmLink(props) {
 export function Fawm(props) {
   return (
     <Section >
-      <Typography gutterBottom variant="h3" component='h2' >February Album Writing Month (FAWM)</Typography>
+      <Typography gutterBottom variant="h3" component='h2' >february album writing month (fawm)</Typography>
       <Typography paragraph>If it’s February, you might find some new songs on my <FawmLink href="https://write.fawm.org/@philnorman">FAWM page.</FawmLink> Even better, come join in and write 14 songs in 28 days, too.</Typography>
       <div>
         <Typography >Personal FAWM demo collections:</Typography>

@@ -99,7 +99,7 @@ export function Discography(props) {
     <Section
       paper={{ sx: { backgroundColor: '#CCCCCC', padding: 2 } }}
     >
-      <Typography gutterBottom variant='h3' component='h2'>Discography:</Typography>
+      <Typography gutterBottom variant='h3' component='h2'>discography:</Typography>
       <Entry name="Before" year='1996' access="Cassette only" />
       <Entry name="If By Yes" year='1998' access="CD only" />
       <Entry name="Collision" year='2000'>
