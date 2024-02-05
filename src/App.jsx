@@ -11,14 +11,6 @@ import { Layout } from './components/Layout';
 
 function App() {
   const theme = createTheme({
-    palette: {
-      primary: {
-        main: '#003333'
-      },
-      secondary: {
-        main: '#CCCCCC'
-      }
-    },
     typography: {
       fontFamily: ["Alegreya SC", "Open Sans"].join(),
       body1: {

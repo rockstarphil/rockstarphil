@@ -38,7 +38,7 @@ function Bandcamp(props) {
 
   return (<IconLink
     href={`https://${band}.bandcamp.com/album/${album}`}>
-    <Icon src={bc.href} />
+    Bandcamp
   </IconLink>);
 }
 
@@ -47,7 +47,7 @@ function Spotify(props) {
 
   return (<IconLink
     href={`https://open.spotify.com/album/${albumId}`}>
-    <Icon src={spotify.href} />
+    Spotify
   </IconLink >);
 }
 
@@ -56,7 +56,7 @@ function AppleMusic(props) {
 
   return (<IconLink
     href={`https://music.apple.com/us/album/${album}/${id}`}>
-    <Icon src={apple.href} />
+    Apple Music
   </IconLink >);
 }
 
@@ -107,20 +107,20 @@ export function Discography(props) {
       </Entry>
       <Entry name="Cory Brammer & 32 Leaves" year='2003' access="CD only" />
       <Entry name="Blue Moonshine" feature="New Mountain Music" year='2005'>
-        <Spotify albumId="29Coq3PubVosZy8ZmwzZST" />
+        <Spotify albumId="29Coq3PubVosZy8ZmwzZST" />&nbsp;
         <AppleMusic album='new-mountain-music' id="76842729" />
       </Entry>
       <Entry name="Blue Moonshine" feature="Distilled EP" year='2011'>
-        <AppleMusic album="distilled-ep" id="431629884" />
+        <AppleMusic album="distilled-ep" id="431629884" />&nbsp;
         <Bandcamp band="bluemoonshine" album="distilled" />
       </Entry>
       <Entry name="Appalachian Soul, self titled" year='2017'>
-        <Spotify albumId="2Xp4sYvI1DUcIlV4UdhPvc" />
+        <Spotify albumId="2Xp4sYvI1DUcIlV4UdhPvc" />&nbsp;
         <Bandcamp band="appalachiansoul" album="appalachian-soul" />
       </Entry>
       <Entry name="Folksinger" year='2024'>
-        <Spotify albumId="0kxzzUsHz7RZBYBMjy3Bbt" />
-        <AppleMusic album="folksinger" id="1727566434" />
+        <Spotify albumId="0kxzzUsHz7RZBYBMjy3Bbt" />&nbsp;
+        <AppleMusic album="folksinger" id="1727566434" />&nbsp;
         <Bandcamp band="rockstarphil" album="folksinger" />
       </Entry>
       <Typography pl={1} pb={1}>

@@ -5,7 +5,6 @@ import { Section} from './sections/Section'
 export function Instagram() {
   const isSmall = useMediaQuery((theme) => theme.breakpoints.down('sm'));
   return (<Section>
-    <Typography variant="h2" >Media</Typography>
     <div style={{ diplay: 'flex', justifyContent: isSmall? "center": 'flex-start' }} >
       <iframe
         className="instagram-media instagram-media-rendered"
