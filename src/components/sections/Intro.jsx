@@ -4,7 +4,7 @@ import {
 } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import { AlbumSwitcher } from '../AlbumSwitcher';
+import { BandCampPlayer } from '../BandCampPlayer';
 import { Section } from './Section';
 
 export function Intro() {
@@ -37,7 +37,15 @@ export function Intro() {
           </Typography>
         </Grid>
         <Grid item sm={12} lg={4} mt={2} width="100%" sx={{ backgroundColor: '#FFFFFF' }}>
-          <AlbumSwitcher />
+          <BandCampPlayer
+            album="901286560"
+            size={"large"}
+            bgco={"ffffff"}
+            linkco={"333333"}
+            artwork={"small"}
+            tracklist={"true"}
+            transparent={"true"}
+          />
         </Grid>
       </Grid>
     </Section>);

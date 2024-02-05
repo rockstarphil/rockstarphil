@@ -66,6 +66,19 @@ function Feature(props) {
   return (feature && <Box component="span" fontWeight='bold'>"{feature}"</Box>)
 }
 
+function IconEntry(props) {
+  const { name, year, access, children } = props;
+
+  return (
+    <Typography pl={1} pb={1} >
+      <Box component="span" sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
+        <Box component="span">{name} <Feature {...props} /> ({year}) {access}</Box>
+        <Box component="span">{children}</Box>
+      </Box>
+    </Typography>
+  );
+}
+
 function Entry(props) {
   const { name, year, access, children } = props;
 

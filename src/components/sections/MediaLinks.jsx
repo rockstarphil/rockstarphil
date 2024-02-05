@@ -6,14 +6,17 @@ const bandcamp = new URL('/logos/Bandcamp-logotype-color.svg', import.meta.url);
 const instagram = new URL('/logos/Instagram-logo-black-white-horizontal-png.png', import.meta.url);
 
 function MediaLink(props) {
-  const isSmall = useMediaQuery((theme) => theme.breakpoints.down('sm'));
-
   const { src, href, ...rest } = props;
-  const style = { maxHeight: isSmall ? '1rem' : '2rem' };
 
-  return (<Grid item >
+  function ImageLink() {
+    const isSmall = useMediaQuery((theme) => theme.breakpoints.down('sm'));
+    const style = { maxHeight: isSmall ? '1rem' : '2rem', paddingLeft: '1rem' };
+
+    return <img src={src} style={style} {...rest} />;
+  }
+
+  return (<Grid item component={ImageLink} >
     <Link href={href} target="_blank">
-      <img src={src} style={style} {...rest} />
     </Link>
   </Grid>)
 }
@@ -24,8 +27,8 @@ export function MediaLinks() {
       <Grid
         container
         spacing={2}
-        alignContent="center"
-        alignItems="center"
+        alignItems="stretch"
+        pt={2}
         justifyContent="center"
       >
         <MediaLink
@@ -41,7 +44,6 @@ export function MediaLinks() {
           href="https://rockstarphil.bandcamp.com/album/folksinger"
         />
         <MediaLink
-          style={{ maxHeight: '2rem' }}
           src={instagram.href}
           href="https://www.instagram.com/rockstarphil/"
         />
