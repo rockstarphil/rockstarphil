@@ -32,7 +32,7 @@ export function Fawm(props) {
         <Typography gutterBottom marginLeft={4}>
           <FawmLink
             href={'https://soundcloud.com/rockstarphil/sets/four-februarys-volume-2-2011'}>
-            Four February Volume 2 (2011-2014)</FawmLink>
+            Four Februarys Volume 2 (2011-2014)</FawmLink>
         </Typography>
       </div>
       <div>
@@ -45,7 +45,7 @@ export function Fawm(props) {
         <Typography gutterBottom marginLeft={4}>
           <FawmLink
             href='https://open.spotify.com/album/4CURH57esFSRSxxp2X3Lgc'>
-            Four Februarys Volume 2 (2011-2014)</FawmLink>
+            14 Songs in 28 Days Volume 4 (2009) Spotify</FawmLink>
         </Typography>
       </div>
     </ Section>)
