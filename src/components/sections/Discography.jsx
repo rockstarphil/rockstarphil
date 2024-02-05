@@ -123,6 +123,7 @@ export function Discography(props) {
         <AppleMusic album="folksinger" id="1727566434" />&nbsp;
         <Bandcamp band="rockstarphil" album="folksinger" />
       </Entry>
+      <br />
       <Typography pl={1} pb={1}>
         <Link
           target="_blank"

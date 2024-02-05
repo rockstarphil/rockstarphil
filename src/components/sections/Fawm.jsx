@@ -25,31 +25,27 @@ export function Fawm(props) {
       <div>
         <Typography >Personal FAWM demo collections:</Typography>
         <Typography gutterBottom marginLeft={4}>
-          Four Februarys
           <FawmLink
             href={'https://soundcloud.com/rockstarphil/sets/four-februarys-volume-1'}>
-            Volume 1 (2007-2010)</FawmLink>
+            Four Februarys Volume 1 (2007-2010)</FawmLink>
         </Typography>
         <Typography gutterBottom marginLeft={4}>
-          Four February
           <FawmLink
             href={'https://soundcloud.com/rockstarphil/sets/four-februarys-volume-2-2011'}>
-            Volume 2 (2011-2014)</FawmLink>
+            Four February Volume 2 (2011-2014)</FawmLink>
         </Typography>
       </div>
       <div>
         <Typography >Appearances on official FAWM compilations:</Typography>
         <Typography gutterBottom marginLeft={4}>
-          Four Februarys
           <FawmLink
             href={'https://open.spotify.com/album/3qINasI7Ib2Er7roUhoE4c'}>
             14 Songs in 28 Days Volume 3 (2008) Spotify</FawmLink>
         </Typography>
         <Typography gutterBottom marginLeft={4}>
-          14 Songs in 28 Days Volume 4 (2009) Spotify
           <FawmLink
             href='https://open.spotify.com/album/4CURH57esFSRSxxp2X3Lgc'>
-            Volume 2 (2011-2014)</FawmLink>
+            Four Februarys Volume 2 (2011-2014)</FawmLink>
         </Typography>
       </div>
     </ Section>)
